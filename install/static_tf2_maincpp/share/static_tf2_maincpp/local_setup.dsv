@@ -1,0 +1,2 @@
+source;share/static_tf2_maincpp/environment/ament_prefix_path.sh
+source;share/static_tf2_maincpp/environment/path.sh

@@ -1,0 +1,27 @@
+[0.039s] Invoking command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_tf2_maincpp -- -j4 -l4
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target static_tf2_main[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target static_tf2[0m
+[0.164s] [ 50%] Built target static_tf2_main
+[0.169s] [100%] Built target static_tf2
+[0.188s] Invoked command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_tf2_maincpp -- -j4 -l4
+[0.252s] Invoking command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_tf2_maincpp
+[0.267s] -- Install configuration: ""
+[0.267s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2_main
+[0.269s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/launch
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/package_run_dependencies/static_tf2_maincpp
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/parent_prefix_path/static_tf2_maincpp
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/ament_prefix_path.sh
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/path.sh
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/path.dsv
+[0.270s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.bash
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.sh
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.zsh
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.dsv
+[0.271s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/package.dsv
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/packages/static_tf2_maincpp
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/cmake/static_tf2_maincppConfig.cmake
+[0.271s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/cmake/static_tf2_maincppConfig-version.cmake
+[0.272s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/package.xml
+[0.277s] Invoked command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_tf2_maincpp

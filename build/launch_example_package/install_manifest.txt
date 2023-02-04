@@ -1,0 +1,16 @@
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/launch/my_first_launch_file.launch.py
+/home/azp/ROS2/workspace/install/launch_example_package/share/ament_index/resource_index/package_run_dependencies/launch_example_package
+/home/azp/ROS2/workspace/install/launch_example_package/share/ament_index/resource_index/parent_prefix_path/launch_example_package
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/environment/ament_prefix_path.sh
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/environment/ament_prefix_path.dsv
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/environment/path.sh
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/environment/path.dsv
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/local_setup.bash
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/local_setup.sh
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/local_setup.zsh
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/local_setup.dsv
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/package.dsv
+/home/azp/ROS2/workspace/install/launch_example_package/share/ament_index/resource_index/packages/launch_example_package
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/cmake/launch_example_packageConfig.cmake
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/cmake/launch_example_packageConfig-version.cmake
+/home/azp/ROS2/workspace/install/launch_example_package/share/launch_example_package/package.xml

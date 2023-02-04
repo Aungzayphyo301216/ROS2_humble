@@ -1,0 +1,4 @@
+Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame
+Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame

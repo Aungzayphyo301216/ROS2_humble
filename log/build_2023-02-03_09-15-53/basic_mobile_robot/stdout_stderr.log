@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azp/ROS2/workspace/build/basic_mobile_robot
+-- Install configuration: ""
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/config
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/launch
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/maps
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/params
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/src
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/worlds
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+-- Installing: /home/azp/ROS2/workspace/install/basic_mobile_robot/share/basic_mobile_robot/package.xml

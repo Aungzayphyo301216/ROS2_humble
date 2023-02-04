@@ -1,0 +1,70 @@
+[0.023s] Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ROS2/workspace/src/static_frame -DCMAKE_INSTALL_PREFIX=/home/azp/ROS2/workspace/install/static_frame
+[0.157s] -- The C compiler identification is GNU 11.3.0
+[0.279s] -- The CXX compiler identification is GNU 11.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.656s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.657s] -- Detecting CXX compile features
+[0.659s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.231s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.342s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.353s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.376s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.658s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.666s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.905s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.970s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.095s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.120s] -- Looking for pthread.h
+[2.273s] -- Looking for pthread.h - found
+[2.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.427s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.430s] -- Found Threads: TRUE  
+[3.010s] -- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+[3.325s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.179s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.461s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.461s] -- Configured cppcheck include dirs: 
+[5.461s] -- Configured cppcheck exclude dirs and/or files: 
+[5.463s] -- Added test 'lint_cmake' to check CMake code style
+[5.465s] -- Added test 'uncrustify' to check C / C++ code style
+[5.465s] -- Configured uncrustify additional arguments: 
+[5.467s] -- Added test 'xmllint' to check XML markup files
+[5.482s] -- Configuring done
+[5.514s] -- Generating done
+[5.518s] -- Build files have been written to: /home/azp/ROS2/workspace/build/static_frame
+[5.547s] Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ROS2/workspace/src/static_frame -DCMAKE_INSTALL_PREFIX=/home/azp/ROS2/workspace/install/static_frame
+[5.548s] Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+[5.826s] [ 50%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_transform.cpp.o[0m
+[18.210s] [100%] [32m[1mLinking CXX executable static_broadcaster[0m
+[19.059s] [100%] Built target static_broadcaster
+[19.080s] Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+[19.137s] Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame
+[19.154s] -- Install configuration: ""
+[19.154s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/lib/static_frame/static_broadcaster
+[19.157s] -- Set runtime path of "/home/azp/ROS2/workspace/install/static_frame/lib/static_frame/static_broadcaster" to ""
+[19.158s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/package_run_dependencies/static_frame
+[19.159s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/parent_prefix_path/static_frame
+[19.160s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.sh
+[19.160s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.dsv
+[19.161s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.sh
+[19.162s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.dsv
+[19.162s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.bash
+[19.163s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.sh
+[19.164s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.zsh
+[19.164s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.dsv
+[19.165s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.dsv
+[19.166s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/packages/static_frame
+[19.167s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig.cmake
+[19.168s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig-version.cmake
+[19.169s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.xml
+[19.182s] Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame

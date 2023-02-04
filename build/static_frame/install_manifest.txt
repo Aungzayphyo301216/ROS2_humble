@@ -1,0 +1,16 @@
+/home/azp/ROS2/workspace/install/static_frame/lib/static_frame/static_broadcaster
+/home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/package_run_dependencies/static_frame
+/home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/parent_prefix_path/static_frame
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.sh
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.dsv
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.sh
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.dsv
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.bash
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.sh
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.zsh
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.dsv
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.dsv
+/home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/packages/static_frame
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig.cmake
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig-version.cmake
+/home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.xml

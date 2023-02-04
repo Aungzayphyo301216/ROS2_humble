@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target static_broadcaster[0m
+[100%] Built target static_broadcaster
+-- Install configuration: ""
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/lib/static_frame/static_broadcaster
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/package_run_dependencies/static_frame
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/parent_prefix_path/static_frame
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.sh
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.dsv
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.bash
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.sh
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.zsh
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.dsv
+-- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.dsv
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/packages/static_frame
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig.cmake
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig-version.cmake
+-- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.xml

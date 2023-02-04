@@ -1,0 +1,8 @@
+source;share/static_tf2_maincpp/hook/cmake_prefix_path.ps1
+source;share/static_tf2_maincpp/hook/cmake_prefix_path.dsv
+source;share/static_tf2_maincpp/hook/cmake_prefix_path.sh
+source;share/static_tf2_maincpp/local_setup.bash
+source;share/static_tf2_maincpp/local_setup.dsv
+source;share/static_tf2_maincpp/local_setup.ps1
+source;share/static_tf2_maincpp/local_setup.sh
+source;share/static_tf2_maincpp/local_setup.zsh

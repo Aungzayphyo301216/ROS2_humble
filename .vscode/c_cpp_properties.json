@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/azp/ROS2/workspace/install/tutorial_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/azp/ROS2/workspace/src/service_test/include/**",
+        "/home/azp/ROS2/workspace/src/static_frame/include/**",
+        "/home/azp/ROS2/workspace/src/test/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

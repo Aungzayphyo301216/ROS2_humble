@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+[0.193s] [35m[1mConsolidate compiler generated dependencies of target static_broadcaster[0m
+[0.247s] [100%] Built target static_broadcaster
+[0.265s] Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_frame -- -j4 -l4
+[0.371s] Invoking command in '/home/azp/ROS2/workspace/build/static_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame
+[0.388s] -- Install configuration: ""
+[0.388s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/lib/static_frame/static_broadcaster
+[0.389s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/package_run_dependencies/static_frame
+[0.389s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/parent_prefix_path/static_frame
+[0.390s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.sh
+[0.391s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/environment/path.dsv
+[0.391s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.bash
+[0.391s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.sh
+[0.391s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.zsh
+[0.392s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/local_setup.dsv
+[0.392s] -- Installing: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.dsv
+[0.407s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/ament_index/resource_index/packages/static_frame
+[0.408s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig.cmake
+[0.409s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/cmake/static_frameConfig-version.cmake
+[0.409s] -- Up-to-date: /home/azp/ROS2/workspace/install/static_frame/share/static_frame/package.xml
+[0.415s] Invoked command in '/home/azp/ROS2/workspace/build/static_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_frame

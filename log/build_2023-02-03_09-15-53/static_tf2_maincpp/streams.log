@@ -1,0 +1,76 @@
+[0.023s] Invoking command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ROS2/workspace/src/static_tf2_maincpp -DCMAKE_INSTALL_PREFIX=/home/azp/ROS2/workspace/install/static_tf2_maincpp
+[0.311s] -- The C compiler identification is GNU 11.3.0
+[0.518s] -- The CXX compiler identification is GNU 11.3.0
+[0.541s] -- Detecting C compiler ABI info
+[0.882s] -- Detecting C compiler ABI info - done
+[0.910s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.910s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.922s] -- Detecting CXX compiler ABI info
+[1.363s] -- Detecting CXX compiler ABI info - done
+[1.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.399s] -- Detecting CXX compile features
+[1.401s] -- Detecting CXX compile features - done
+[1.415s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.248s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.668s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[2.888s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.904s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.928s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.467s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.483s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.967s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.034s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.154s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.203s] -- Looking for pthread.h
+[4.694s] -- Looking for pthread.h - found
+[4.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.212s] -- Found Threads: TRUE  
+[5.978s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.224s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.651s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.830s] -- Configured cppcheck include dirs: 
+[7.830s] -- Configured cppcheck exclude dirs and/or files: 
+[7.833s] -- Added test 'lint_cmake' to check CMake code style
+[7.836s] -- Added test 'uncrustify' to check C / C++ code style
+[7.836s] -- Configured uncrustify additional arguments: 
+[7.838s] -- Added test 'xmllint' to check XML markup files
+[7.841s] -- Configuring done
+[7.877s] -- Generating done
+[7.881s] -- Build files have been written to: /home/azp/ROS2/workspace/build/static_tf2_maincpp
+[7.904s] Invoked command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ROS2/workspace/src/static_tf2_maincpp -DCMAKE_INSTALL_PREFIX=/home/azp/ROS2/workspace/install/static_tf2_maincpp
+[7.905s] Invoking command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_tf2_maincpp -- -j4 -l4
+[8.040s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf2.dir/src/static_two.cpp.o[0m
+[8.041s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf2_main.dir/src/static_tf2_main.cpp.o[0m
+[18.553s] [ 75%] [32m[1mLinking CXX executable static_tf2_main[0m
+[18.655s] [100%] [32m[1mLinking CXX executable static_tf2[0m
+[19.201s] [100%] Built target static_tf2_main
+[19.295s] [100%] Built target static_tf2
+[19.318s] Invoked command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ROS2/workspace/build/static_tf2_maincpp -- -j4 -l4
+[19.380s] Invoking command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_tf2_maincpp
+[19.397s] -- Install configuration: ""
+[19.397s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2_main
+[19.400s] -- Set runtime path of "/home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2_main" to ""
+[19.400s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2
+[19.403s] -- Set runtime path of "/home/azp/ROS2/workspace/install/static_tf2_maincpp/lib/static_tf2_maincpp/static_tf2" to ""
+[19.403s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/launch
+[19.403s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/package_run_dependencies/static_tf2_maincpp
+[19.404s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/parent_prefix_path/static_tf2_maincpp
+[19.404s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/ament_prefix_path.sh
+[19.404s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/ament_prefix_path.dsv
+[19.405s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/path.sh
+[19.405s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/environment/path.dsv
+[19.405s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.bash
+[19.405s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.sh
+[19.406s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.zsh
+[19.406s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/local_setup.dsv
+[19.407s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/package.dsv
+[19.407s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/ament_index/resource_index/packages/static_tf2_maincpp
+[19.407s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/cmake/static_tf2_maincppConfig.cmake
+[19.408s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/cmake/static_tf2_maincppConfig-version.cmake
+[19.408s] -- Installing: /home/azp/ROS2/workspace/install/static_tf2_maincpp/share/static_tf2_maincpp/package.xml
+[19.417s] Invoked command in '/home/azp/ROS2/workspace/build/static_tf2_maincpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ROS2/workspace/build/static_tf2_maincpp

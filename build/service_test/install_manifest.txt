@@ -1,0 +1,17 @@
+/home/azp/ROS2/workspace/install/service_test/lib/service_test/client
+/home/azp/ROS2/workspace/install/service_test/lib/service_test/server
+/home/azp/ROS2/workspace/install/service_test/share/ament_index/resource_index/package_run_dependencies/service_test
+/home/azp/ROS2/workspace/install/service_test/share/ament_index/resource_index/parent_prefix_path/service_test
+/home/azp/ROS2/workspace/install/service_test/share/service_test/environment/ament_prefix_path.sh
+/home/azp/ROS2/workspace/install/service_test/share/service_test/environment/ament_prefix_path.dsv
+/home/azp/ROS2/workspace/install/service_test/share/service_test/environment/path.sh
+/home/azp/ROS2/workspace/install/service_test/share/service_test/environment/path.dsv
+/home/azp/ROS2/workspace/install/service_test/share/service_test/local_setup.bash
+/home/azp/ROS2/workspace/install/service_test/share/service_test/local_setup.sh
+/home/azp/ROS2/workspace/install/service_test/share/service_test/local_setup.zsh
+/home/azp/ROS2/workspace/install/service_test/share/service_test/local_setup.dsv
+/home/azp/ROS2/workspace/install/service_test/share/service_test/package.dsv
+/home/azp/ROS2/workspace/install/service_test/share/ament_index/resource_index/packages/service_test
+/home/azp/ROS2/workspace/install/service_test/share/service_test/cmake/service_testConfig.cmake
+/home/azp/ROS2/workspace/install/service_test/share/service_test/cmake/service_testConfig-version.cmake
+/home/azp/ROS2/workspace/install/service_test/share/service_test/package.xml

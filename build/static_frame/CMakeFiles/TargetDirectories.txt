@@ -1,0 +1,10 @@
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/uninstall.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/static_frame_uninstall.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/static_broadcaster.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/test.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/edit_cache.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/rebuild_cache.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/list_install_components.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/install.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/install/local.dir
+/home/azp/ROS2/workspace/build/static_frame/CMakeFiles/install/strip.dir
