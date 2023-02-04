@@ -1,0 +1,62 @@
+[0.023s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/mini_pupper_navigation
+[0.137s] -- The C compiler identification is GNU 11.3.0
+[0.260s] -- The CXX compiler identification is GNU 11.3.0
+[0.275s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.436s] -- Detecting CXX compiler ABI info
+[0.595s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.620s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.632s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.272s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.867s] -- Configuring done
+[1.900s] -- Generating done
+[1.902s] -- Build files have been written to: /home/azp/ros2_ws/build/mini_pupper_navigation
+[1.938s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/mini_pupper_navigation
+[1.939s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_navigation -- -j4 -l4
+[2.094s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_navigation -- -j4 -l4
+[2.353s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_navigation
+[2.375s] -- Install configuration: ""
+[2.376s] -- Execute custom install script
+[2.378s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/navigate.launch.py
+[2.399s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/occupancy_grid.launch.py
+[2.457s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/slam.launch.py
+[2.485s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/cartographer/nav.lua
+[2.518s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/cartographer/slam.lua
+[2.562s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/base_local_planner_holonomic_params.yaml
+[2.590s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/costmap_common_params.yaml
+[2.613s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/global_costmap_params.yaml
+[2.665s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/local_costmap_params.yaml
+[2.713s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/move_base_params.yaml
+[2.743s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/cartographer_map.pbstream
+[2.775s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/cartographer_map.pgm
+[2.795s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/cartographer_map.yaml
+[2.838s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/map.pgm
+[2.859s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/map.yaml
+[2.885s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/playground.pgm
+[2.917s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/playground.yaml
+[2.955s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz/cartographer.rviz
+[2.996s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz/navigation.rviz
+[3.039s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz/navigation_minimal.rviz
+[3.077s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz/slam.rviz
+[3.113s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/ament_index/resource_index/package_run_dependencies/mini_pupper_navigation
+[3.129s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/ament_index/resource_index/parent_prefix_path/mini_pupper_navigation
+[3.146s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/environment/ament_prefix_path.sh
+[3.162s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/environment/ament_prefix_path.dsv
+[3.179s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/environment/path.sh
+[3.198s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/environment/path.dsv
+[3.216s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/local_setup.bash
+[3.233s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/local_setup.sh
+[3.249s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/local_setup.zsh
+[3.293s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/local_setup.dsv
+[3.332s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.dsv
+[3.392s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/ament_index/resource_index/packages/mini_pupper_navigation
+[3.455s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/cmake/mini_pupper_navigationConfig.cmake
+[3.513s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/cmake/mini_pupper_navigationConfig-version.cmake
+[3.553s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.xml
+[3.598s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_navigation

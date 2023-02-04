@@ -1,0 +1,41 @@
+[0.147s] Invoking command in '/home/azp/ros2_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ -- -j4 -l4
+[1.589s] Invoked command in '/home/azp/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ -- -j4 -l4
+[1.623s] Invoking command in '/home/azp/ros2_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ
+[1.675s] -- Install configuration: ""
+[1.751s] -- Execute custom install script
+[1.755s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/.git
+[1.756s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/LICENSE
+[1.757s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/README.md
+[1.758s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/bla/basic_linear_algebra.h
+[1.759s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/bla/memory_delegate.h
+[1.760s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/body_controller/body_controller.h
+[1.761s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/geometry/geometry.h
+[1.762s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/kinematics/kinematics.h
+[1.763s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/leg_controller.h
+[1.764s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/phase_generator.h
+[1.765s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/trajectory_planner.h
+[1.766s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/macros/macros.h
+[1.767s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/odometry/odometry.h
+[1.768s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_base.h
+[1.770s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_components.h
+[1.771s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h
+[1.772s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h
+[1.773s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/utils/urdf_loader.h
+[1.774s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/utils/xmlrpc_helpers.h
+[1.835s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[1.835s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[1.846s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+[1.847s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+[1.848s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/path.sh
+[1.848s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/path.dsv
+[1.879s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.bash
+[1.880s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.sh
+[1.881s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.zsh
+[1.882s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.dsv
+[1.882s] -- Symlinking: /home/azp/ros2_ws/install/champ/share/champ/package.dsv
+[1.900s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/packages/champ
+[1.901s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.902s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/champConfig.cmake
+[1.902s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+[1.902s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/package.xml
+[2.342s] Invoked command in '/home/azp/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ

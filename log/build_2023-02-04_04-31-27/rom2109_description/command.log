@@ -1,0 +1,6 @@
+Invoking command in '/home/azp/ros2_ws/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/rom2109_description
+Invoked command in '/home/azp/ros2_ws/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/rom2109_description
+Invoking command in '/home/azp/ros2_ws/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/rom2109_description -- -j4 -l4
+Invoked command in '/home/azp/ros2_ws/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/rom2109_description -- -j4 -l4
+Invoking command in '/home/azp/ros2_ws/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/rom2109_description
+Invoked command in '/home/azp/ros2_ws/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/rom2109_description

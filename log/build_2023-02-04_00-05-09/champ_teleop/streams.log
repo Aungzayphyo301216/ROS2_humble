@@ -1,0 +1,30 @@
+[0.029s] Invoking command in '/home/azp/ros2_ws/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_teleop
+[0.146s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Configuring done
+[0.662s] -- Generating done
+[0.664s] -- Build files have been written to: /home/azp/ros2_ws/build/champ_teleop
+[0.667s] Invoked command in '/home/azp/ros2_ws/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_teleop
+[0.669s] Invoking command in '/home/azp/ros2_ws/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_teleop -- -j4 -l4
+[0.723s] Invoked command in '/home/azp/ros2_ws/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_teleop -- -j4 -l4
+[0.758s] Invoking command in '/home/azp/ros2_ws/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_teleop
+[0.769s] -- Install configuration: ""
+[0.771s] -- Execute custom install script
+[0.771s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[0.772s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[0.772s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[0.772s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[0.773s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[0.773s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[0.773s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/environment/path.sh
+[0.774s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[0.774s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.bash
+[0.774s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.sh
+[0.775s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[0.775s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[0.775s] -- Symlinking: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/package.dsv
+[0.788s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[0.788s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[0.788s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[0.789s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_teleop/share/champ_teleop/package.xml
+[0.797s] Invoked command in '/home/azp/ros2_ws/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_teleop

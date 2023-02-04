@@ -1,0 +1,276 @@
+[1.597s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/azp/ros2_ws']
+[1.597s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/azp/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f096c24e080>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f096c45dcc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f096c45dcc0>>)
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.637s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azp/ros2_ws'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'ignore'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'ignore_ament_install'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['colcon_pkg']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'colcon_pkg'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['colcon_meta']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'colcon_meta'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['ros']
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'ros'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['cmake', 'python']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'cmake'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'python'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extensions ['python_setup_py']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws) by extension 'python_setup_py'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/build) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/build) ignored
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/install) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/install) ignored
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/log) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/log) ignored
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'ignore'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'ignore_ament_install'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['colcon_pkg']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'ros'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['cmake', 'python']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'cmake'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'python'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extensions ['python_setup_py']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src) by extension 'python_setup_py'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'ignore'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'ignore_ament_install'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['colcon_pkg']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'colcon_pkg'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['colcon_meta']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'colcon_meta'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['ros']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'cmake'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ) by extension 'python_setup_py'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['ros']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'ros'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['cmake', 'python']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'python'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extensions ['python_setup_py']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ) by extension 'python_setup_py'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ) by extension 'ros'
+[1.684s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ' with type 'ros.ament_cmake' and name 'champ'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extension 'ignore'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extension 'ignore_ament_install'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extensions ['colcon_meta']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extension 'colcon_meta'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extensions ['ros']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_base) by extension 'ros'
+[1.686s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_base' with type 'ros.ament_cmake' and name 'champ_base'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extension 'ignore'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extension 'ignore_ament_install'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extensions ['colcon_pkg']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extension 'colcon_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extensions ['colcon_meta']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extension 'colcon_meta'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extensions ['ros']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_bringup) by extension 'ros'
+[1.689s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_bringup' with type 'ros.ament_cmake' and name 'champ_bringup'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extensions ['ignore', 'ignore_ament_install']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extension 'ignore'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extension 'ignore_ament_install'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extensions ['colcon_pkg']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extensions ['colcon_meta']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extension 'colcon_meta'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extensions ['ros']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_config) by extension 'ros'
+[1.691s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_config' with type 'ros.ament_cmake' and name 'champ_config'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extension 'ignore_ament_install'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extensions ['colcon_pkg']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extension 'colcon_pkg'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_description) by extension 'ros'
+[1.695s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_description' with type 'ros.ament_cmake' and name 'champ_description'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extension 'ignore'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extension 'ignore_ament_install'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extension 'colcon_pkg'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extensions ['colcon_meta']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extension 'colcon_meta'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extensions ['ros']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_gazebo) by extension 'ros'
+[1.697s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_gazebo' with type 'ros.ament_cmake' and name 'champ_gazebo'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extension 'ignore_ament_install'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extensions ['colcon_pkg']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extension 'colcon_meta'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extensions ['ros']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_msgs) by extension 'ros'
+[1.699s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extension 'ignore_ament_install'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extensions ['colcon_pkg']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extension 'colcon_pkg'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extensions ['colcon_meta']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extension 'colcon_meta'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extensions ['ros']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/champ_navigation) by extension 'ros'
+[1.700s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ/champ_navigation' with type 'ros.ament_cmake' and name 'champ_navigation'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'ignore'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'ignore_ament_install'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['colcon_pkg']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'colcon_pkg'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['ros']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'ros'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['cmake', 'python']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'cmake'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'python'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extensions ['python_setup_py']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs) by extension 'python_setup_py'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'ignore_ament_install'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['colcon_pkg']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'colcon_pkg'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['colcon_meta']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'colcon_meta'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'ros'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['cmake', 'python']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'cmake'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'python'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extensions ['python_setup_py']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ/docs/images) by extension 'python_setup_py'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extension 'ignore'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extensions ['colcon_pkg']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extensions ['colcon_meta']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extension 'colcon_meta'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extensions ['ros']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/champ/champ_teleop) by extension 'ros'
+[1.705s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/champ/champ_teleop' with type 'ros.ament_cmake' and name 'champ_teleop'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extension 'ignore'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extension 'ignore_ament_install'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extensions ['colcon_pkg']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extension 'colcon_meta'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extensions ['ros']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/ldlidar_stl_ros) by extension 'ros'
+[1.708s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/ldlidar_stl_ros' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'ignore'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'ignore_ament_install'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['colcon_pkg']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'colcon_pkg'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['colcon_meta']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'colcon_meta'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['ros']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'ros'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['cmake', 'python']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'cmake'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'python'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extensions ['python_setup_py']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros) by extension 'python_setup_py'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extension 'ignore_ament_install'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extensions ['colcon_pkg']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extension 'colcon_pkg'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extensions ['colcon_meta']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extension 'colcon_meta'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extensions ['ros']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup) by extension 'ros'
+[1.711s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup' with type 'ros.ament_cmake' and name 'mini_pupper_bringup'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extensions ['ignore', 'ignore_ament_install']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extension 'ignore'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extension 'ignore_ament_install'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extensions ['colcon_pkg']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extension 'colcon_pkg'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extensions ['colcon_meta']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extension 'colcon_meta'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extensions ['ros']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control) by extension 'ros'
+[1.713s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_control' with type 'ros.ament_python' and name 'mini_pupper_control'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extensions ['ignore', 'ignore_ament_install']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extension 'ignore'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extension 'ignore_ament_install'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extensions ['colcon_pkg']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extension 'colcon_pkg'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extensions ['colcon_meta']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extension 'colcon_meta'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extensions ['ros']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description) by extension 'ros'
+[1.715s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description' with type 'ros.ament_cmake' and name 'mini_pupper_description'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extension 'ignore'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extension 'ignore_ament_install'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extensions ['colcon_pkg']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extension 'colcon_pkg'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extensions ['colcon_meta']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extension 'colcon_meta'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extensions ['ros']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo) by extension 'ros'
+[1.716s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_gazebo' with type 'ros.ament_cmake' and name 'mini_pupper_gazebo'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extension 'ignore'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extension 'ignore_ament_install'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extensions ['colcon_pkg']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extension 'colcon_pkg'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extensions ['colcon_meta']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extension 'colcon_meta'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extensions ['ros']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation) by extension 'ros'
+[1.718s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_navigation' with type 'ros.ament_cmake' and name 'mini_pupper_navigation'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extensions ['ignore', 'ignore_ament_install']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extension 'ignore'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extension 'ignore_ament_install'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extensions ['colcon_pkg']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extension 'colcon_pkg'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extensions ['colcon_meta']
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extension 'colcon_meta'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extensions ['ros']
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description) by extension 'ros'
+[1.719s] DEBUG:colcon.colcon_core.package_identification:Package '/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description' with type 'ros.ament_cmake' and name 'rom2109_description'
+[1.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

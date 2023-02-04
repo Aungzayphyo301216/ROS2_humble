@@ -1,0 +1,37 @@
+[0.164s] Invoking command in '/home/azp/ros2_ws/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_config -- -j4 -l4
+[1.433s] Invoked command in '/home/azp/ros2_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_config -- -j4 -l4
+[1.482s] Invoking command in '/home/azp/ros2_ws/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_config
+[1.571s] -- Install configuration: ""
+[1.644s] -- Execute custom install script
+[1.687s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/launch/bringup.launch.py
+[1.693s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/launch/gazebo.launch.py
+[1.693s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/launch/navigate.launch.py
+[1.696s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/launch/slam.launch.py
+[1.697s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/config/autonomy/navigation.yaml
+[1.697s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/config/autonomy/slam.yaml
+[1.699s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/config/gait/gait.yaml
+[1.700s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/config/joints/joints.yaml
+[1.702s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/config/links/links.yaml
+[1.705s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/maps/map.pgm
+[1.707s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/maps/map.yaml
+[1.708s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/maps/playground.pgm
+[1.709s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/maps/playground.yaml
+[1.710s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/worlds/default.world
+[1.711s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/worlds/outdoor.world
+[1.711s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/worlds/playground.world
+[1.733s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/ament_index/resource_index/package_run_dependencies/champ_config
+[1.733s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/ament_index/resource_index/parent_prefix_path/champ_config
+[1.735s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.sh
+[1.736s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.dsv
+[1.737s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/environment/path.sh
+[1.737s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/environment/path.dsv
+[1.739s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/local_setup.bash
+[1.739s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/local_setup.sh
+[1.740s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/local_setup.zsh
+[1.740s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/local_setup.dsv
+[1.741s] -- Symlinking: /home/azp/ros2_ws/install/champ_config/share/champ_config/package.dsv
+[1.761s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/ament_index/resource_index/packages/champ_config
+[1.761s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig.cmake
+[1.762s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig-version.cmake
+[1.762s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_config/share/champ_config/package.xml
+[1.767s] Invoked command in '/home/azp/ros2_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_config

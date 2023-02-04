@@ -1,0 +1,58 @@
+[0.046s] Invoking command in '/home/azp/ros2_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ
+[0.278s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.850s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.137s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[2.248s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.251s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.352s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.058s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.112s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.484s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.670s] -- Configuring done
+[4.777s] -- Generating done
+[4.780s] -- Build files have been written to: /home/azp/ros2_ws/build/champ
+[4.794s] Invoked command in '/home/azp/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ
+[4.797s] Invoking command in '/home/azp/ros2_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ -- -j4 -l4
+[4.857s] Invoked command in '/home/azp/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ -- -j4 -l4
+[4.904s] Invoking command in '/home/azp/ros2_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ
+[4.923s] -- Install configuration: ""
+[4.924s] -- Execute custom install script
+[4.924s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/.git
+[4.924s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/LICENSE
+[4.924s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/README.md
+[4.924s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/bla/basic_linear_algebra.h
+[4.925s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/bla/memory_delegate.h
+[4.925s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/body_controller/body_controller.h
+[4.925s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/geometry/geometry.h
+[4.925s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/kinematics/kinematics.h
+[4.925s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/leg_controller.h
+[4.926s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/phase_generator.h
+[4.926s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/leg_controller/trajectory_planner.h
+[4.926s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/macros/macros.h
+[4.926s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/odometry/odometry.h
+[4.926s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_base.h
+[4.927s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_components.h
+[4.927s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h
+[4.927s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h
+[4.927s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/utils/urdf_loader.h
+[4.928s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/include/champ/utils/xmlrpc_helpers.h
+[4.928s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[4.929s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[4.929s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+[4.929s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+[4.930s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/path.sh
+[4.930s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/environment/path.dsv
+[4.930s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.bash
+[4.931s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.sh
+[4.931s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.zsh
+[4.931s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/local_setup.dsv
+[4.932s] -- Symlinking: /home/azp/ros2_ws/install/champ/share/champ/package.dsv
+[4.957s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/ament_index/resource_index/packages/champ
+[4.958s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.958s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/champConfig.cmake
+[4.958s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+[4.959s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ/share/champ/package.xml
+[4.967s] Invoked command in '/home/azp/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ

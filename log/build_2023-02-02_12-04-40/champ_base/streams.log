@@ -1,0 +1,71 @@
+[0.084s] Invoking command in '/home/azp/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_base
+[0.170s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.378s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.423s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.436s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.047s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[1.050s] -- Found champ_msgs: 0.1.0 (/home/azp/ros2_ws/install/champ_msgs/share/champ_msgs/cmake)
+[1.578s] -- Found visualization_msgs: 4.2.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.309s] -- Found trajectory_msgs: 4.2.2 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.685s] -- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.010s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.321s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[4.352s] -- Found champ: 0.1.0 (/home/azp/ros2_ws/install/champ/share/champ/cmake)
+[4.539s] -- Configuring done
+[4.627s] -- Generating done
+[4.630s] -- Build files have been written to: /home/azp/ros2_ws/build/champ_base
+[4.643s] Invoked command in '/home/azp/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_base
+[4.646s] Invoking command in '/home/azp/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_base -- -j4 -l4
+[4.701s] [35m[1mConsolidate compiler generated dependencies of target quadruped_controller[0m
+[4.727s] [ 16%] Built target quadruped_controller
+[4.737s] [35m[1mConsolidate compiler generated dependencies of target state_estimation[0m
+[4.737s] [35m[1mConsolidate compiler generated dependencies of target message_relay[0m
+[4.748s] [35m[1mConsolidate compiler generated dependencies of target quadruped_controller_node[0m
+[4.776s] [ 33%] Built target state_estimation
+[4.779s] [ 50%] Built target message_relay
+[4.789s] [ 66%] Built target quadruped_controller_node
+[4.799s] [35m[1mConsolidate compiler generated dependencies of target message_relay_node[0m
+[4.827s] [ 83%] Built target message_relay_node
+[4.839s] [35m[1mConsolidate compiler generated dependencies of target state_estimation_node[0m
+[4.868s] [100%] Built target state_estimation_node
+[4.884s] Invoked command in '/home/azp/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_base -- -j4 -l4
+[4.946s] Invoking command in '/home/azp/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_base
+[4.956s] -- Install configuration: ""
+[4.957s] -- Execute custom install script
+[4.968s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[4.968s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[4.969s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[4.969s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/libquadruped_controller.so
+[4.969s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/bin/quadruped_controller_node
+[4.970s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/libmessage_relay.so
+[4.970s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/bin/message_relay_node
+[4.970s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/libstate_estimation.so
+[4.971s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/bin/state_estimation_node
+[4.971s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[4.971s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/champ_base/message_relay_node
+[4.971s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/lib/champ_base/state_estimation_node
+[4.971s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/environment/path.sh
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/environment/path.dsv
+[4.972s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/local_setup.bash
+[4.973s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/local_setup.sh
+[4.973s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/local_setup.zsh
+[4.973s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/local_setup.dsv
+[4.973s] -- Symlinking: /home/azp/ros2_ws/install/champ_base/share/champ_base/package.dsv
+[4.992s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[4.993s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.993s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.998s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[4.999s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[4.999s] -- Up-to-date symlink: /home/azp/ros2_ws/install/champ_base/share/champ_base/package.xml
+[5.007s] Invoked command in '/home/azp/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_base

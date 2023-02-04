@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/azp/ros2_ws/install/champ_msgs/include/**",
+        "/home/azp/ros2_ws/install/champ/include/**",
+        "/home/azp/ROS2/workspace/install/tutorial_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/azp/ros2_ws/src/champ/champ/champ/include/**",
+        "/home/azp/ros2_ws/src/champ/champ/champ_base/include/**",
+        "/home/azp/ros2_ws/src/champ/champ/champ_config/include/**",
+        "/home/azp/ros2_ws/src/ldlidar_stl_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

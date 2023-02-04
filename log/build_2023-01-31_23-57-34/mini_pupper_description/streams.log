@@ -1,0 +1,84 @@
+[0.017s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/mini_pupper_description
+[0.106s] -- The C compiler identification is GNU 11.3.0
+[0.206s] -- The CXX compiler identification is GNU 11.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.361s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.369s] -- Detecting CXX compiler ABI info
+[0.523s] -- Detecting CXX compiler ABI info - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.543s] -- Detecting CXX compile features
+[0.544s] -- Detecting CXX compile features - done
+[0.553s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.056s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.129s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.248s] -- Configuring done
+[1.248s] -- Generating done
+[1.267s] -- Build files have been written to: /home/azp/ros2_ws/build/mini_pupper_description
+[1.277s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/mini_pupper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/mini_pupper_description
+[1.278s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_description -- -j4 -l4
+[1.368s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_description -- -j4 -l4
+[1.409s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_description
+[1.422s] -- Install configuration: ""
+[1.423s] -- Execute custom install script
+[1.423s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/launch/description.launch.py
+[1.436s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/config/champ/gait.yaml
+[1.450s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/config/champ/joints.yaml
+[1.464s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/config/champ/links.yaml
+[1.489s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/config/ros_control/mini_pupper_controller.yaml
+[1.500s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/rviz/urdf_viewer.rviz
+[1.513s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/_d435.urdf.xacro
+[1.526s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/_materials.urdf.xacro
+[1.538s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/_usb_plug.urdf.xacro
+[1.553s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.csv
+[1.566s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.urdf
+[1.582s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.urdf.xacro
+[1.602s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/base_link.STL
+[1.621s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/d435.dae
+[1.639s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lb1.STL
+[1.656s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lb2.STL
+[1.674s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lb3.STL
+[1.690s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lbfoot.STL
+[1.706s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lf1.STL
+[1.719s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lf2.STL
+[1.730s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lf3.STL
+[1.742s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lffoot.STL
+[1.760s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lidar.STL
+[1.771s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lpb1.STL
+[1.787s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lpb2.STL
+[1.800s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lpf1.STL
+[1.815s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/lpf2.STL
+[1.830s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/plug.stl
+[1.845s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/plug_collision.stl
+[1.860s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rb1.STL
+[1.875s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rb2.STL
+[1.890s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rb3.STL
+[1.909s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rbfoot.STL
+[1.925s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rf1.STL
+[1.940s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rf2.STL
+[1.955s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rf3.STL
+[1.971s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rffoot.STL
+[1.987s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rpb1.STL
+[2.001s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rpb2.STL
+[2.021s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rpf1.STL
+[2.037s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/rpf2.STL
+[2.051s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/meshes/yellow_plate.STL
+[2.067s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/ament_index/resource_index/package_run_dependencies/mini_pupper_description
+[2.100s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/ament_index/resource_index/parent_prefix_path/mini_pupper_description
+[2.129s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/environment/ament_prefix_path.sh
+[2.145s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/environment/ament_prefix_path.dsv
+[2.161s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/environment/path.sh
+[2.177s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/environment/path.dsv
+[2.194s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/local_setup.bash
+[2.206s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/local_setup.sh
+[2.217s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/local_setup.zsh
+[2.227s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/local_setup.dsv
+[2.238s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/package.dsv
+[2.249s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/ament_index/resource_index/packages/mini_pupper_description
+[2.260s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/cmake/mini_pupper_descriptionConfig.cmake
+[2.271s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/cmake/mini_pupper_descriptionConfig-version.cmake
+[2.281s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_description/share/mini_pupper_description/package.xml
+[2.297s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_description

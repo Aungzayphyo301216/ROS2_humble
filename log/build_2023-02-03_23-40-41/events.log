@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (-) JobUnselected: {'identifier': 'champ'}
+[0.000271] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.000368] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.000404] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.000512] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.000586] (-) JobUnselected: {'identifier': 'champ_gazebo'}
+[0.000695] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.000737] (-) JobUnselected: {'identifier': 'champ_navigation'}
+[0.000758] (-) JobUnselected: {'identifier': 'champ_teleop'}
+[0.000790] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.000810] (-) JobUnselected: {'identifier': 'mini_pupper_bringup'}
+[0.000829] (-) JobUnselected: {'identifier': 'mini_pupper_control'}
+[0.000847] (-) JobUnselected: {'identifier': 'mini_pupper_description'}
+[0.000866] (-) JobUnselected: {'identifier': 'mini_pupper_gazebo'}
+[0.000885] (-) JobUnselected: {'identifier': 'mini_pupper_navigation'}
+[0.000905] (-) EventReactorShutdown: {}

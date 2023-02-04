@@ -1,0 +1,150 @@
+[0.021s] Invoking command in '/home/azp/ros2_ws/build/champ_gazebo': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_gazebo
+[0.096s] -- The C compiler identification is GNU 11.3.0
+[0.174s] -- The CXX compiler identification is GNU 11.3.0
+[0.184s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.407s] -- Detecting CXX compile features
+[0.408s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.654s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.908s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.920s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.937s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.120s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.267s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.308s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.430s] -- Looking for pthread.h
+[1.526s] -- Looking for pthread.h - found
+[1.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.626s] -- Found Threads: TRUE  
+[2.004s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.180s] -- Found champ: 0.1.0 (/home/azp/ros2_ws/install/champ/share/champ/cmake)
+[2.182s] -- Found champ_msgs: 0.1.0 (/home/azp/ros2_ws/install/champ_msgs/share/champ_msgs/cmake)
+[2.356s] -- Found gazebo_ros2_control: 0.4.0 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[2.365s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.384s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.386s] -- Checking for module 'bullet>=2.82'
+[2.417s] --   Found bullet, version 3.05
+[2.699s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.826s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.086s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.292s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.339s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.370s] -- Looking for ignition-math6 -- found version 6.12.0
+[3.557s] -- Searching for dependencies of ignition-math6
+[3.560s] -- Looking for OGRE...
+[3.560s] -- OGRE_PREFIX_WATCH changed.
+[3.567s] -- Checking for module 'OGRE'
+[3.584s] --   Found OGRE, version 1.9.0
+[3.629s] -- Found Ogre Ghadamon (1.9.0)
+[3.641s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.659s] -- Looking for OGRE_Paging...
+[3.669s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.669s] -- Looking for OGRE_Terrain...
+[3.678s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.678s] -- Looking for OGRE_Property...
+[3.688s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.688s] -- Looking for OGRE_RTShaderSystem...
+[3.697s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.697s] -- Looking for OGRE_Volume...
+[3.706s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.706s] -- Looking for OGRE_Overlay...
+[3.718s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.949s] -- Looking for ignition-math6 -- found version 6.12.0
+[3.954s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.955s] -- Searching for dependencies of ignition-transport8
+[4.000s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.046s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.053s] -- Checking for module 'libzmq >= 4'
+[4.194s] --   Found libzmq , version 4.3.4
+[4.274s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.315s] -- Checking for module 'uuid'
+[4.352s] --   Found uuid, version 2.37.2
+[4.400s] -- Found UUID: TRUE  
+[4.407s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.408s] -- Searching for dependencies of ignition-msgs5
+[4.446s] -- Looking for ignition-math6 -- found version 6.12.0
+[4.455s] -- Checking for module 'tinyxml2'
+[4.487s] --   Found tinyxml2, version 9.0.0
+[4.533s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.538s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.539s] -- Searching for dependencies of ignition-common3
+[4.540s] -- Looking for dlfcn.h - found
+[4.541s] -- Looking for libdl - found
+[4.543s] -- Found DL: TRUE  
+[4.561s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.562s] -- Searching for <ignition-common3> component [graphics]
+[4.567s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.568s] -- Searching for dependencies of ignition-common3-graphics
+[4.569s] -- Looking for ignition-math6 -- found version 6.12.0
+[4.575s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.576s] -- Searching for dependencies of ignition-fuel_tools4
+[4.752s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.961s] -- Checking for module 'jsoncpp'
+[5.004s] --   Found jsoncpp, version 1.9.5
+[5.057s] -- Found JSONCPP: TRUE  
+[5.067s] -- Checking for module 'libzip'
+[5.086s] --   Found libzip, version 1.7.3
+[5.154s] -- Found ZIP: TRUE  
+[5.155s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.155s] -- Looking for ignition-math6 -- found version 6.12.0
+[5.156s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.236s] -- Gazebo version: 11.10
+[5.237s] -- Checking for module 'tbb'
+[5.351s] --   Found tbb, version 2021.5.0
+[5.715s] -- Configuring done
+[7.364s] -- Generating done
+[7.369s] -- Build files have been written to: /home/azp/ros2_ws/build/champ_gazebo
+[7.397s] Invoked command in '/home/azp/ros2_ws/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_gazebo
+[7.401s] Invoking command in '/home/azp/ros2_ws/build/champ_gazebo': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_gazebo -- -j4 -l4
+[7.502s] [ 50%] [32mBuilding CXX object CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o[0m
+[50.812s] [100%] [32m[1mLinking CXX executable contact_sensor[0m
+[58.736s] [100%] Built target contact_sensor
+[58.752s] Invoked command in '/home/azp/ros2_ws/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_gazebo -- -j4 -l4
+[58.804s] Invoking command in '/home/azp/ros2_ws/build/champ_gazebo': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_gazebo
+[58.817s] -- Install configuration: ""
+[58.818s] -- Execute custom install script
+[58.818s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/bin/imu_sensor.py
+[58.833s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/bin/odometry_tf.py
+[58.845s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/bin/odometry.py
+[58.858s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/lib/champ_gazebo/contact_sensor
+[58.871s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch
+[58.884s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch.py
+[58.899s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_robot.launch
+[58.915s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_world.launch
+[58.931s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/config/gazebo.yaml
+[58.946s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/config/ros_control.yaml
+[58.962s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/default.world
+[58.976s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/outdoor.world
+[58.988s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/playground.world
+[58.999s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/package_run_dependencies/champ_gazebo
+[59.010s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/parent_prefix_path/champ_gazebo
+[59.021s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.sh
+[59.032s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.dsv
+[59.045s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/path.sh
+[59.059s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/path.dsv
+[59.074s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.bash
+[59.084s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.sh
+[59.095s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.zsh
+[59.107s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.dsv
+[59.122s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.dsv
+[59.136s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/packages/champ_gazebo
+[59.147s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.158s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.169s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+[59.180s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+[59.191s] -- Symlinking: /home/azp/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.xml
+[59.206s] Invoked command in '/home/azp/ros2_ws/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_gazebo

@@ -1,0 +1,70 @@
+[0.066s] Invoking command in '/home/azp/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_description
+[1.573s] -- The C compiler identification is GNU 11.3.0
+[2.662s] -- The CXX compiler identification is GNU 11.3.0
+[2.796s] -- Detecting C compiler ABI info
+[3.277s] -- Detecting C compiler ABI info - done
+[3.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.298s] -- Detecting C compile features
+[3.314s] -- Detecting C compile features - done
+[3.330s] -- Detecting CXX compiler ABI info
+[3.627s] -- Detecting CXX compiler ABI info - done
+[3.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.649s] -- Detecting CXX compile features
+[3.650s] -- Detecting CXX compile features - done
+[3.758s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.385s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.624s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.118s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.314s] -- Configuring done
+[5.341s] -- Generating done
+[5.351s] -- Build files have been written to: /home/azp/ros2_ws/build/champ_description
+[5.368s] Invoked command in '/home/azp/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_description
+[5.370s] Invoking command in '/home/azp/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_description -- -j4 -l4
+[5.431s] Invoked command in '/home/azp/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_description -- -j4 -l4
+[5.475s] Invoking command in '/home/azp/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_description
+[5.486s] -- Install configuration: ""
+[5.486s] -- Execute custom install script
+[5.487s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/launch/description.launch
+[5.502s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/launch/description.launch.py
+[5.518s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/launch/view_urdf.launch
+[5.534s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/rviz/urdf_viewer.rviz
+[5.551s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/arm/base.stl
+[5.568s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/arm/lower_arm.stl
+[5.584s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/arm/upper_arm.stl
+[5.596s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/arm/wrist1.stl
+[5.610s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/arm/wrist2.stl
+[5.624s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/asus_camera_simple.dae
+[5.640s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/base.stl
+[5.657s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/base_simple.stl
+[5.668s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/hip.stl
+[5.680s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/hokuyo_utm_30lx.dae
+[5.690s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/lower_leg.stl
+[5.701s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/lower_leg_simple.stl
+[5.713s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/upper_leg.stl
+[5.727s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/meshes/upper_leg_simple.stl
+[5.740s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/accessories.urdf.xacro
+[5.752s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/asus_camera.urdf.xacro
+[5.764s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/champ.urdf
+[5.776s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/champ.urdf.xacro
+[5.788s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/champ_arm.urdf
+[5.799s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/champ_velodyne.urdf
+[5.810s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/gen_urdf
+[5.823s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/hokuyo_utm30lx.urdf.xacro
+[5.835s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/leg.urdf.xacro
+[5.846s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/urdf/properties.urdf.xacro
+[5.858s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/ament_index/resource_index/package_run_dependencies/champ_description
+[5.871s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/ament_index/resource_index/parent_prefix_path/champ_description
+[5.886s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.sh
+[5.896s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.dsv
+[5.907s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/environment/path.sh
+[5.919s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/environment/path.dsv
+[5.930s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/local_setup.bash
+[5.940s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/local_setup.sh
+[5.950s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/local_setup.zsh
+[5.961s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/local_setup.dsv
+[5.971s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/package.dsv
+[5.981s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/ament_index/resource_index/packages/champ_description
+[5.992s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig.cmake
+[6.002s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig-version.cmake
+[6.012s] -- Symlinking: /home/azp/ros2_ws/install/champ_description/share/champ_description/package.xml
+[6.733s] Invoked command in '/home/azp/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_description

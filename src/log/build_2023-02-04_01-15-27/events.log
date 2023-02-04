@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (-) JobUnselected: {'identifier': 'champ'}
+[0.000274] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.000301] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.000323] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.000342] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.000363] (-) JobUnselected: {'identifier': 'champ_gazebo'}
+[0.000382] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.000402] (-) JobUnselected: {'identifier': 'champ_navigation'}
+[0.000421] (-) JobUnselected: {'identifier': 'champ_teleop'}
+[0.000440] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.000459] (-) JobUnselected: {'identifier': 'mini_pupper_bringup'}
+[0.000478] (-) JobUnselected: {'identifier': 'mini_pupper_control'}
+[0.000497] (-) JobUnselected: {'identifier': 'mini_pupper_description'}
+[0.000516] (-) JobUnselected: {'identifier': 'mini_pupper_gazebo'}
+[0.000535] (-) JobUnselected: {'identifier': 'mini_pupper_navigation'}
+[0.000559] (rom2109_description) JobQueued: {'identifier': 'rom2109_description', 'dependencies': OrderedDict()}
+[0.000583] (rom2109_description) JobStarted: {'identifier': 'rom2109_description'}
+[0.077740] (rom2109_description) JobProgress: {'identifier': 'rom2109_description', 'progress': 'cmake'}
+[0.078312] (rom2109_description) Command: {'cmd': ['/usr/bin/cmake', '/home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description', '-DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/src/install/rom2109_description'], 'cwd': '/home/azp/ros2_ws/src/build/rom2109_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/azp/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/focalfossa/ROS2/workspace/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-dell:@/tmp/.ICE-unix/1844,unix/azp-dell:/tmp/.ICE-unix/1844'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1c7ed9cd_b603_4317_8793_02dd29562e5c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49UHZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/ros2_ws/src/build/rom2109_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.097017] (-) TimerEvent: {}
+[0.198288] (-) TimerEvent: {}
+[0.299368] (-) TimerEvent: {}
+[0.399882] (-) TimerEvent: {}
+[0.501443] (-) TimerEvent: {}
+[0.603216] (-) TimerEvent: {}
+[0.704364] (-) TimerEvent: {}
+[0.804788] (-) TimerEvent: {}
+[0.905176] (-) TimerEvent: {}
+[1.005873] (-) TimerEvent: {}
+[1.106485] (-) TimerEvent: {}
+[1.207508] (-) TimerEvent: {}
+[1.308528] (-) TimerEvent: {}
+[1.409213] (-) TimerEvent: {}
+[1.509824] (-) TimerEvent: {}
+[1.569102] (rom2109_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.609938] (-) TimerEvent: {}
+[1.710426] (-) TimerEvent: {}
+[1.811555] (-) TimerEvent: {}
+[1.912714] (-) TimerEvent: {}
+[2.013936] (-) TimerEvent: {}
+[2.114838] (-) TimerEvent: {}
+[2.202604] (rom2109_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.214961] (-) TimerEvent: {}
+[2.315481] (-) TimerEvent: {}
+[2.332360] (rom2109_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.415800] (-) TimerEvent: {}
+[2.517004] (-) TimerEvent: {}
+[2.617453] (-) TimerEvent: {}
+[2.718552] (-) TimerEvent: {}
+[2.819108] (-) TimerEvent: {}
+[2.844423] (rom2109_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.858607] (rom2109_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.859692] (rom2109_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.882222] (rom2109_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.919411] (-) TimerEvent: {}
+[2.979730] (rom2109_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.020276] (-) TimerEvent: {}
+[3.121765] (-) TimerEvent: {}
+[3.222272] (-) TimerEvent: {}
+[3.323462] (-) TimerEvent: {}
+[3.424531] (-) TimerEvent: {}
+[3.476443] (rom2109_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.490397] (rom2109_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.490778] (rom2109_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.491645] (rom2109_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.524706] (-) TimerEvent: {}
+[3.622097] (rom2109_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.625030] (-) TimerEvent: {}
+[3.726252] (-) TimerEvent: {}
+[3.826845] (-) TimerEvent: {}
+[3.927341] (-) TimerEvent: {}
+[4.027632] (-) TimerEvent: {}
+[4.095249] (rom2109_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.127762] (-) TimerEvent: {}
+[4.228110] (-) TimerEvent: {}
+[4.328701] (-) TimerEvent: {}
+[4.429389] (-) TimerEvent: {}
+[4.529818] (-) TimerEvent: {}
+[4.631386] (-) TimerEvent: {}
+[4.732451] (-) TimerEvent: {}
+[4.833478] (-) TimerEvent: {}
+[4.934254] (-) TimerEvent: {}
+[5.034803] (-) TimerEvent: {}
+[5.054207] (rom2109_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.135110] (-) TimerEvent: {}
+[5.236171] (-) TimerEvent: {}
+[5.337129] (-) TimerEvent: {}
+[5.438725] (-) TimerEvent: {}
+[5.539242] (-) TimerEvent: {}
+[5.640268] (-) TimerEvent: {}
+[5.741935] (-) TimerEvent: {}
+[5.843331] (-) TimerEvent: {}
+[5.944389] (-) TimerEvent: {}
+[6.045395] (-) TimerEvent: {}
+[6.146553] (-) TimerEvent: {}
+[6.247926] (-) TimerEvent: {}
+[6.349062] (-) TimerEvent: {}
+[6.374013] (rom2109_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.386373] (rom2109_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.425980] (rom2109_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.449490] (-) TimerEvent: {}
+[6.462712] (rom2109_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.522681] (rom2109_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.531031] (rom2109_description) StdoutLine: {'line': b'-- Generating done\n'}
+[6.535393] (rom2109_description) StdoutLine: {'line': b'-- Build files have been written to: /home/azp/ros2_ws/src/build/rom2109_description\n'}
+[6.546044] (rom2109_description) CommandEnded: {'returncode': 0}
+[6.547905] (rom2109_description) JobProgress: {'identifier': 'rom2109_description', 'progress': 'build'}
+[6.550827] (rom2109_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azp/ros2_ws/src/build/rom2109_description', '--', '-j4', '-l4'], 'cwd': '/home/azp/ros2_ws/src/build/rom2109_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/azp/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/focalfossa/ROS2/workspace/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-dell:@/tmp/.ICE-unix/1844,unix/azp-dell:/tmp/.ICE-unix/1844'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1c7ed9cd_b603_4317_8793_02dd29562e5c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49UHZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/ros2_ws/src/build/rom2109_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[6.553908] (-) TimerEvent: {}
+[6.620501] (rom2109_description) CommandEnded: {'returncode': 0}
+[6.652825] (rom2109_description) JobProgress: {'identifier': 'rom2109_description', 'progress': 'install'}
+[6.654000] (-) TimerEvent: {}
+[6.665928] (rom2109_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azp/ros2_ws/src/build/rom2109_description'], 'cwd': '/home/azp/ros2_ws/src/build/rom2109_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2032'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/azp/dev_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/focalfossa/ROS2/workspace/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-dell:@/tmp/.ICE-unix/1844,unix/azp-dell:/tmp/.ICE-unix/1844'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1c7ed9cd_b603_4317_8793_02dd29562e5c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49UHZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/ros2_ws/src/build/rom2109_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[6.681041] (rom2109_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.681327] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/launch\n'}
+[6.682119] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/launch/description.launch.py\n'}
+[6.682735] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf\n'}
+[6.683230] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot_gazebo.urdf\n'}
+[6.683935] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.config\n'}
+[6.684604] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall_gazebo.urdf\n'}
+[6.685148] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_short_gazebo.urdf\n'}
+[6.685680] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot_gazebo11.urdf\n'}
+[6.686166] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_short.urdf\n'}
+[6.686633] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.urdf\n'}
+[6.687114] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot.urdf\n'}
+[6.687663] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.sdf\n'}
+[6.688201] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes\n'}
+[6.688663] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot\n'}
+[6.689131] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/base_link.STL\n'}
+[6.694709] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/right_wheel.STL\n'}
+[6.708242] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/wifi.STL\n'}
+[6.708585] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/left_wheel.STL\n'}
+[6.719073] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/frame_link.STL\n'}
+[6.719892] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/rp_lidar.STL\n'}
+[6.720312] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/base_link.STL\n'}
+[6.731612] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/right_wheel.STL\n'}
+[6.744267] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/lidar.STL\n'}
+[6.744704] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short\n'}
+[6.744915] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/base_link.STL\n'}
+[6.754107] (-) TimerEvent: {}
+[6.755690] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/right_wheel.STL\n'}
+[6.768986] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/lidar.STL\n'}
+[6.769465] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/camera.STL\n'}
+[6.770558] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/left_wheel.STL\n'}
+[6.783824] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/plate1.STL\n'}
+[6.784566] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/camera.STL\n'}
+[6.785699] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate3.STL\n'}
+[6.786092] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/left_wheel.STL\n'}
+[6.800185] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall\n'}
+[6.800520] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/base_link.STL\n'}
+[6.810523] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/right_wheel.STL\n'}
+[6.824282] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/lidar.STL\n'}
+[6.825916] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/camera.STL\n'}
+[6.827071] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate3.STL\n'}
+[6.827842] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/left_wheel.STL\n'}
+[6.845036] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate1.STL\n'}
+[6.846204] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate2.STL\n'}
+[6.846724] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate1.STL\n'}
+[6.847811] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate2.STL\n'}
+[6.849182] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/package_run_dependencies/rom2109_description\n'}
+[6.849444] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/parent_prefix_path/rom2109_description\n'}
+[6.849672] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/ament_prefix_path.sh\n'}
+[6.849880] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/ament_prefix_path.dsv\n'}
+[6.850119] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/path.sh\n'}
+[6.850396] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/path.dsv\n'}
+[6.850724] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.bash\n'}
+[6.851020] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.sh\n'}
+[6.851319] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.zsh\n'}
+[6.851625] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.dsv\n'}
+[6.851893] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/package.dsv\n'}
+[6.852256] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/packages/rom2109_description\n'}
+[6.852612] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/cmake/rom2109_descriptionConfig.cmake\n'}
+[6.852833] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/cmake/rom2109_descriptionConfig-version.cmake\n'}
+[6.853126] (rom2109_description) StdoutLine: {'line': b'-- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/package.xml\n'}
+[6.854201] (-) TimerEvent: {}
+[6.855890] (rom2109_description) CommandEnded: {'returncode': 0}
+[6.954429] (-) TimerEvent: {}
+[7.055403] (-) TimerEvent: {}
+[7.156700] (-) TimerEvent: {}
+[7.237156] (rom2109_description) JobEnded: {'identifier': 'rom2109_description', 'rc': 0}
+[7.239166] (-) EventReactorShutdown: {}

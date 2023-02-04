@@ -1,0 +1,43 @@
+[0.115s] Invoking command in '/home/azp/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_msgs -- -j4 -l4
+[1.819s] [  0%] Built target ament_cmake_python_symlink_champ_msgs
+[1.848s] [  1%] Built target champ_msgs__cpp
+[2.001s] [ 12%] Built target champ_msgs__rosidl_generator_c
+[2.220s] [ 24%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[2.246s] [ 35%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[2.432s] [ 47%] Built target champ_msgs__rosidl_typesupport_cpp
+[2.447s] [ 58%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[2.786s] [ 70%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[2.801s] gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[2.802s] Traceback (most recent call last):
+[2.802s]   File "/home/azp/ros2_ws/build/champ_msgs/ament_cmake_python/champ_msgs/setup.py", line 4, in <module>
+[2.803s]     setup(
+[2.804s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 153, in setup
+[2.821s]     return distutils.core.setup(**attrs)
+[2.822s]   File "/usr/lib/python3.10/distutils/core.py", line 134, in setup
+[2.863s]     ok = dist.parse_command_line()
+[2.863s]   File "/usr/lib/python3.10/distutils/dist.py", line 483, in parse_command_line
+[2.898s]     args = self._parse_command_opts(parser, args)
+[2.899s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1048, in _parse_command_opts
+[2.959s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[2.959s]   File "/usr/lib/python3.10/distutils/dist.py", line 539, in _parse_command_opts
+[2.960s]     cmd_class = self.get_command_class(command)
+[2.960s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 893, in get_command_class
+[2.961s]     self.cmdclass[command] = cmdclass = ep.load()
+[2.962s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2465, in load
+[3.002s]     return self.resolve()
+[3.023s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2471, in resolve
+[3.027s]     module = __import__(self.module_name, fromlist=['__name__'], level=0)
+[3.039s]   File "/usr/lib/python3/dist-packages/setuptools/command/egg_info.py", line 21, in <module>
+[3.040s]     from setuptools.command.sdist import sdist
+[3.042s]   File "/usr/lib/python3/dist-packages/setuptools/command/sdist.py", line 8, in <module>
+[3.044s]     from .py36compat import sdist_add_defaults
+[3.046s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[3.047s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[3.048s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[3.050s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[3.051s]   File "<frozen importlib._bootstrap_external>", line 975, in get_code
+[3.053s]   File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+[3.055s] KeyboardInterrupt
+[3.126s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_champ_msgs_egg] Interrupt
+[3.127s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/all] Interrupt
+[3.127s] gmake: *** [Makefile:146: all] Interrupt

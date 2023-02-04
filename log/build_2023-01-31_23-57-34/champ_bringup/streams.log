@@ -1,0 +1,78 @@
+[0.113s] Invoking command in '/home/azp/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_bringup
+[0.390s] -- The C compiler identification is GNU 11.3.0
+[0.501s] -- The CXX compiler identification is GNU 11.3.0
+[0.557s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.673s] -- Detecting C compile features
+[0.674s] -- Detecting C compile features - done
+[0.680s] -- Detecting CXX compiler ABI info
+[0.832s] -- Detecting CXX compiler ABI info - done
+[0.846s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.847s] -- Detecting CXX compile features
+[0.848s] -- Detecting CXX compile features - done
+[0.855s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.504s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.993s] -- Configuring done
+[1.997s] -- Generating done
+[1.998s] -- Build files have been written to: /home/azp/ros2_ws/build/champ_bringup
+[2.005s] Invoked command in '/home/azp/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/azp/ros2_ws/src/champ/champ/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/install/champ_bringup
+[2.007s] Invoking command in '/home/azp/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_bringup -- -j4 -l4
+[2.081s] Built target ament_cmake_python_symlink_champ_bringup
+[5.868s] running egg_info
+[5.869s] creating champ_bringup.egg-info
+[5.869s] writing champ_bringup.egg-info/PKG-INFO
+[5.869s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[5.870s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[5.870s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[5.872s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[5.873s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[5.908s] Built target ament_cmake_python_build_champ_bringup_egg
+[5.921s] Invoked command in '/home/azp/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azp/ros2_ws/build/champ_bringup -- -j4 -l4
+[5.952s] Invoking command in '/home/azp/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_bringup
+[5.961s] -- Install configuration: ""
+[5.961s] -- Execute custom install script
+[5.963s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[5.973s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[5.984s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[5.994s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[6.005s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[6.016s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[6.026s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[6.037s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[6.048s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[6.058s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[6.069s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[6.080s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[6.090s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[6.101s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[6.111s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[6.122s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[6.133s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[6.144s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[6.155s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.166s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.177s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[6.188s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[6.199s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[6.210s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[6.220s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[6.231s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[6.242s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[6.253s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[6.264s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.sh
+[6.275s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[6.286s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.bash
+[6.297s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.sh
+[6.308s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[6.318s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[6.329s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/package.dsv
+[6.340s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[6.351s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[6.362s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[6.373s] -- Symlinking: /home/azp/ros2_ws/install/champ_bringup/share/champ_bringup/package.xml
+[6.463s] Listing '/home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[6.463s] Compiling '/home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py'...
+[6.463s] Compiling '/home/azp/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py'...
+[6.473s] Invoked command in '/home/azp/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azp/ros2_ws/install/champ_base:/home/azp/ros2_ws/install/champ_msgs:/home/azp/ros2_ws/install/champ_description:/home/azp/ros2_ws/install/champ:/home/azp/ROS2/workspace/install/test:/home/azp/ROS2/workspace/install/service_test:/home/azp/ROS2/workspace/install/tutorial_interfaces:/home/azp/ROS2/workspace/install/static_tf2_maincpp:/home/azp/ROS2/workspace/install/static_frame:/home/azp/ROS2/workspace/install/my_package:/home/azp/ROS2/workspace/install/moving_robot:/home/azp/ROS2/workspace/install/launch_example_package:/home/azp/ROS2/workspace/install/dolly:/home/azp/ROS2/workspace/install/dolly_gazebo:/home/azp/ROS2/workspace/install/dolly_follow:/home/azp/ROS2/workspace/install/basic_mobile_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/azp/ros2_ws/install/champ_base/lib:/home/azp/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/azp/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/azp/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azp/ros2_ws/build/champ_bringup

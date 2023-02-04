@@ -1,0 +1,88 @@
+[0.079s] Invoking command in '/home/azp/ros2_ws/src/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/src/install/rom2109_description
+[1.569s] -- The C compiler identification is GNU 11.3.0
+[2.202s] -- The CXX compiler identification is GNU 11.3.0
+[2.333s] -- Detecting C compiler ABI info
+[2.844s] -- Detecting C compiler ABI info - done
+[2.858s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.859s] -- Detecting C compile features
+[2.882s] -- Detecting C compile features - done
+[2.980s] -- Detecting CXX compiler ABI info
+[3.476s] -- Detecting CXX compiler ABI info - done
+[3.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.490s] -- Detecting CXX compile features
+[3.491s] -- Detecting CXX compile features - done
+[3.622s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.095s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.054s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.374s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.387s] -- Added test 'lint_cmake' to check CMake code style
+[6.426s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.463s] -- Added test 'xmllint' to check XML markup files
+[6.522s] -- Configuring done
+[6.531s] -- Generating done
+[6.535s] -- Build files have been written to: /home/azp/ros2_ws/src/build/rom2109_description
+[6.546s] Invoked command in '/home/azp/ros2_ws/src/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/ros2_ws/src/mini_pupper_ros/rom2109_description -DCMAKE_INSTALL_PREFIX=/home/azp/ros2_ws/src/install/rom2109_description
+[6.552s] Invoking command in '/home/azp/ros2_ws/src/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/src/build/rom2109_description -- -j4 -l4
+[6.620s] Invoked command in '/home/azp/ros2_ws/src/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/src/build/rom2109_description -- -j4 -l4
+[6.666s] Invoking command in '/home/azp/ros2_ws/src/build/rom2109_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/src/build/rom2109_description
+[6.681s] -- Install configuration: ""
+[6.681s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/launch
+[6.682s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/launch/description.launch.py
+[6.682s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf
+[6.683s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot_gazebo.urdf
+[6.684s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.config
+[6.684s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall_gazebo.urdf
+[6.685s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_short_gazebo.urdf
+[6.685s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot_gazebo11.urdf
+[6.686s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_short.urdf
+[6.686s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.urdf
+[6.687s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_bot.urdf
+[6.687s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/urdf/rom2109_tall.sdf
+[6.688s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes
+[6.688s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot
+[6.689s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/base_link.STL
+[6.694s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/right_wheel.STL
+[6.708s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/wifi.STL
+[6.708s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/left_wheel.STL
+[6.719s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/frame_link.STL
+[6.719s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/bot/rp_lidar.STL
+[6.720s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/base_link.STL
+[6.731s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/right_wheel.STL
+[6.744s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/lidar.STL
+[6.744s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short
+[6.744s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/base_link.STL
+[6.755s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/right_wheel.STL
+[6.769s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/lidar.STL
+[6.769s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/camera.STL
+[6.770s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/left_wheel.STL
+[6.783s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/short/plate1.STL
+[6.784s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/camera.STL
+[6.785s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate3.STL
+[6.786s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/left_wheel.STL
+[6.800s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall
+[6.800s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/base_link.STL
+[6.810s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/right_wheel.STL
+[6.825s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/lidar.STL
+[6.825s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/camera.STL
+[6.827s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate3.STL
+[6.827s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/left_wheel.STL
+[6.845s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate1.STL
+[6.846s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/tall/plate2.STL
+[6.846s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate1.STL
+[6.847s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/meshes/plate2.STL
+[6.849s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/package_run_dependencies/rom2109_description
+[6.849s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/parent_prefix_path/rom2109_description
+[6.849s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/ament_prefix_path.sh
+[6.849s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/ament_prefix_path.dsv
+[6.850s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/path.sh
+[6.850s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/environment/path.dsv
+[6.850s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.bash
+[6.851s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.sh
+[6.851s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.zsh
+[6.851s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/local_setup.dsv
+[6.851s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/package.dsv
+[6.852s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/ament_index/resource_index/packages/rom2109_description
+[6.852s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/cmake/rom2109_descriptionConfig.cmake
+[6.852s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/cmake/rom2109_descriptionConfig-version.cmake
+[6.853s] -- Installing: /home/azp/ros2_ws/src/install/rom2109_description/share/rom2109_description/package.xml
+[6.857s] Invoked command in '/home/azp/ros2_ws/src/build/rom2109_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/src/build/rom2109_description

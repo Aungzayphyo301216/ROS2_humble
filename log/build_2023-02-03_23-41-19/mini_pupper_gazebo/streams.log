@@ -1,0 +1,26 @@
+[0.077s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_gazebo -- -j4 -l4
+[0.211s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/ros2_ws/build/mini_pupper_gazebo -- -j4 -l4
+[0.257s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_gazebo
+[0.268s] -- Install configuration: ""
+[0.285s] -- Execute custom install script
+[0.286s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/launch/gazebo.launch.py
+[0.300s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/launch/reference.launch.py
+[0.301s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/worlds/default.world
+[0.302s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/worlds/outdoor.world
+[0.302s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/worlds/playground.world
+[0.303s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/ament_index/resource_index/package_run_dependencies/mini_pupper_gazebo
+[0.304s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/ament_index/resource_index/parent_prefix_path/mini_pupper_gazebo
+[0.304s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/environment/ament_prefix_path.sh
+[0.304s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/environment/ament_prefix_path.dsv
+[0.305s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/environment/path.sh
+[0.305s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/environment/path.dsv
+[0.306s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/local_setup.bash
+[0.306s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/local_setup.sh
+[0.307s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/local_setup.zsh
+[0.307s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/local_setup.dsv
+[0.307s] -- Symlinking: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/package.dsv
+[0.320s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/ament_index/resource_index/packages/mini_pupper_gazebo
+[0.320s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/cmake/mini_pupper_gazeboConfig.cmake
+[0.320s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/cmake/mini_pupper_gazeboConfig-version.cmake
+[0.321s] -- Up-to-date symlink: /home/azp/ros2_ws/install/mini_pupper_gazebo/share/mini_pupper_gazebo/package.xml
+[0.324s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/ros2_ws/build/mini_pupper_gazebo

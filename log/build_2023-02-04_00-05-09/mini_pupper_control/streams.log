@@ -1,0 +1,32 @@
+[4.433s] Invoking command in '/home/azp/ros2_ws/build/mini_pupper_control': PYTHONPATH=/home/azp/ros2_ws/build/mini_pupper_control/prefix_override:/home/azp/ros2_ws/install/mini_pupper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/azp/ros2_ws/build/mini_pupper_control/build --no-deps install_data
+[5.195s] running develop
+[5.411s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.411s]   warnings.warn(
+[5.568s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.569s]   warnings.warn(
+[5.701s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.701s]   warnings.warn(
+[5.701s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.701s]   warnings.warn(
+[5.702s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.703s]   warnings.warn(
+[5.892s] running egg_info
+[5.893s] writing mini_pupper_control.egg-info/PKG-INFO
+[5.914s] writing dependency_links to mini_pupper_control.egg-info/dependency_links.txt
+[5.915s] writing entry points to mini_pupper_control.egg-info/entry_points.txt
+[5.915s] writing requirements to mini_pupper_control.egg-info/requires.txt
+[5.915s] writing top-level names to mini_pupper_control.egg-info/top_level.txt
+[5.918s] reading manifest file 'mini_pupper_control.egg-info/SOURCES.txt'
+[5.974s] writing manifest file 'mini_pupper_control.egg-info/SOURCES.txt'
+[5.977s] running build_ext
+[5.977s] Creating /home/azp/ros2_ws/install/mini_pupper_control/lib/python3.10/site-packages/mini-pupper-control.egg-link (link to .)
+[5.978s] Installing display_interface script to /home/azp/ros2_ws/install/mini_pupper_control/lib/mini_pupper_control
+[5.979s] Installing servo_interface script to /home/azp/ros2_ws/install/mini_pupper_control/lib/mini_pupper_control
+[5.979s] 
+[5.979s] Installed /home/azp/ros2_ws/build/mini_pupper_control
+[5.979s] running install_data
+[5.980s] copying resource/mini_pupper_control -> /home/azp/ros2_ws/install/mini_pupper_control/share/ament_index/resource_index/packages
+[5.980s] copying package.xml -> /home/azp/ros2_ws/install/mini_pupper_control/share/mini_pupper_control
+[5.980s] copying launch/display_interface.launch.py -> /home/azp/ros2_ws/install/mini_pupper_control/share/mini_pupper_control/launch
+[5.980s] copying launch/servo_interface.launch.py -> /home/azp/ros2_ws/install/mini_pupper_control/share/mini_pupper_control/launch
+[6.024s] Invoked command in '/home/azp/ros2_ws/build/mini_pupper_control' returned '0': PYTHONPATH=/home/azp/ros2_ws/build/mini_pupper_control/prefix_override:/home/azp/ros2_ws/install/mini_pupper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/azp/ros2_ws/build/mini_pupper_control/build --no-deps install_data
